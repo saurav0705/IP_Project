@@ -8,6 +8,8 @@ img
     position:relative;
     top:20%;
     left:20%;
+    right:20%;
+    margin: auto auto auto auto;
     
 }
 marquee
@@ -15,17 +17,23 @@ marquee
 }
 </style>
 <script>
-    
+    function change()
+    {
+        <marquee  behavior="slide" direction="up">
+                <img  src="1.jpg" height="384px" width="683px"/>
+            </marquee>
+    }
     function Stop()
     {
-        $("#i").stop(2000);
+        setTimeout("change()",2000);
+        
     }
 </script>
 </head>
-<body>
+<body onload="Stop()">
+        <img id="i" src="1.jpg" height="384px" width="683px"/>
+    
 
-    <marquee id="i" behavior="slide" direction="up">
-<img src="1.jpg" height="384px" width"683px"/>
-</marquee>
+
 </body>
 </html>
