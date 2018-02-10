@@ -37,15 +37,7 @@
         font-family: arial,bold;
         background-color: green;
     }
-    .button3{
-        border-radius: 100%;
-        background-image:url(3.5.jpg);
-        background-size: 100%;
-        color:white;
-        border:2px solid white;
-        opacity: 0.6;
-        
-    }
+    
     
     body{
         height:100%;
@@ -61,6 +53,7 @@
         opacity: 1;
         font-family: arial,bold;
         font-shadow: -1px 0 balck,0 1px black,1px 0 black,0 -1px black;
+        transition-duration: 5s;
         
     }
     h1:hover
