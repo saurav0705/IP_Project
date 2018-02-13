@@ -4,9 +4,12 @@
     <script src="jquery-3.3.1.js"></script>
     <script>
         $(document).ready(function(){
+            setTimeout(function(){
+            $("div").hide();
+            },1)
          setTimeout(function(){
-        $("p").show(1000);
-         },3000);
+        $("div").show(1000);
+         },1000);
         });
     </script>
     <style>
@@ -127,6 +130,7 @@ background-color: rgb(59, 28, 6);
     <tr><td><label>Username</label></td><td><input type="text" name="username"/></td></tr>
     <tr><td><label>Password</label></td><td><input type="password" name="password"/></td></tr>
     <tr><td><label>Date Of Birth</label></td><td><input type="date"  text="none" name="dob"/></td></tr>
+    <tr><td><label>E-Mail</label></td><td><input type="text" name="email"/></td></tr>
 </table><br>
 <input type="checkbox" id="chck"><label id="l" for="chk"> I hereby agree to all terms and conditions.</label><br>
 <br>
