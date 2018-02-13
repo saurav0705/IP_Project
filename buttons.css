@@ -25,6 +25,7 @@
         background-image: url(3.4.jpg);
         background-color: green;
         font-family: arial,bold;
+        border: 2px solid red;
     }
     .button2{
         color:white;
@@ -36,6 +37,7 @@
         color:red;
         font-family: arial,bold;
         background-color: green;
+        border: 2px solid red;
     }
     
     
